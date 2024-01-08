@@ -2,10 +2,10 @@
 
 $email = $_POST["email"];
 
-$host = "127.0.0.1";
+$host = "<REDACTED>";
 $dbname = "email_address";
-$username = "root"; 
-$password = "22005McTQ";
+$username = "<REDACTED>"; 
+$password = "<REDACTED>";
 
 $conn = mysqli_connect(hostname: $host, 
                        username: $username, 
